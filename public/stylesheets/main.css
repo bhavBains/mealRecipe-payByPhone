@@ -1,0 +1,9 @@
+.jumbotron {
+  background-color: darksalmon;
+  opacity: 0.8;
+}
+
+.main-card {
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
