@@ -8,7 +8,7 @@ This app is built with HTML, CSS, JS, jQuery and AJAX on the front-end, and used
 
 1. Install dependencies using the `npm install` command.
 2. Start the web server using the `npm start` command. The app will be served at <http://localhost:8000/>.
-3. Go to <http://localhost:8080/> in the browser.
+3. Go to <http://localhost:8000/> in the browser.
 
 !["Demo"](https://github.com/bhavBains/mealRecipe-payByPhone/blob/master/media/paybyphone-%20intro.gif?raw=true)
 
