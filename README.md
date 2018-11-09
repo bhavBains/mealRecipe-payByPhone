@@ -11,14 +11,14 @@ This app is built with HTML, CSS, JS, jQuery and AJAX on the front-end, and used
 3. Go to <http://localhost:8080/> in the browser.
 
 <center>
-    <img src="media/paybyphone-intro.gif" width="100%" />
+    <img src="./media/paybyphone-intro.gif" width="100%" />
 </center>
 
 ## Dependencies
 
 	-body-parser: 1.18.3
-  -ejs: 2.6.1
-  -express: 4.16.4
+  	-ejs: 2.6.1
+  	-express: 4.16.4
  
 ## devDependencies
 	-nodemon: 1.18.6
@@ -26,6 +26,6 @@ This app is built with HTML, CSS, JS, jQuery and AJAX on the front-end, and used
 ## Expected Functionality
 	-The front end micro application retrieving data from JSON via AJAX call.
 	-Recipes should display in a nice format on a web page.
-  -Multiple recipes should be selected.
-  -On selection of a recipe, relative ingredients should be displayed in alphabetical order.
-  -It should be fully responsive on every screen.
+	-Multiple recipes should be selected.
+	-On selection of a recipe, relative ingredients should be displayed in alphabetical order.
+	-It should be fully responsive on every screen.
