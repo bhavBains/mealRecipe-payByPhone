@@ -11,12 +11,14 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json()); // Create application/json parser
 
-// start server on port local machine
+// start server on local machine
 app.listen(8000, () => {
   console.log("Your app is running at PORT 8000");
 });
 
 // Get request to index page
 app.get('/', (req,res) => {
+  // Call to JSON file can be made here,
+  // and send data back to front end
   res.render('index');
 });

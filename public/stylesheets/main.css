@@ -1,3 +1,7 @@
+a {
+  text-decoration: none !important;
+}
+
 .jumbotron {
   background-color: darksalmon;
   opacity: 0.8;
@@ -5,5 +9,20 @@
 
 .main-card {
   flex-wrap: wrap;
-  /* justify-content: space-between; */
+}
+
+.card-body {
+  max-height: 100px;
+}
+
+.recipe-card {
+  margin: 5px;
+}
+
+.card-header {
+  color: tan;
+}
+
+.list-group {
+  color: tan;
 }
